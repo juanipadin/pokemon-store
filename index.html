@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <title>Clarkgot || Productos Pokémon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+<body>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content">
+
+    <!-- Header -->
+        <header class="w3-panel w3-center w3-opacity">
+            <h1 class="w3-xlarge" id="titulo">Productos Pokémon</h1>
+            <h1>Clarkgot</h1>
+
+            <div class="w3-padding-32">
+                <div class="w3-bar w3-border">
+                    <a href="#" class="w3-bar-item w3-button w3-light-grey">Inicio</a>
+                    <a href="#" class="w3-bar-item w3-button" id="productos">Productos</a>
+                    <a href="#" class="w3-bar-item w3-button w3-hide-small" >Contacto</a>
+                </div>
+                <button id="myBtn" title="Ir al Inicio">Inicio</button>
+            </div>
+        </header>
+
+    <!-- Cotizador -->
+    <div id="cotizador">
+            <div class="buscador-pokemon">
+                <h4>Indicá tu Pokémon Favorito</h4>
+                <input type="text" id="input-pokemon">
+                <p id = "ejemplo-pokemon">(Ej. Pikachu, Charizard, Onix, Mewtwo, Eevee, Gengar, Mew, Snorlax, Lapras, Gyarados, etc.)</p>
+                <p id="resultado-pokemon"></p>
+            </div>
+            <section>Seleccioná el Producto deseado</section>
+            <section id="listado"></section>
+            <section>Seleccioná la Cantidad deseada</section>
+            <input id="valor"></input>
+            <section id="resultado">¡Gracias por Elegirnos!</section>
+            <button type="submit" id="agregar">Enviar a Cotizar</button>
+            <section id="ultimo"></section>
+            <table class="default" id="enviados">
+                <thead>
+                    <tr>
+                    <th>Pokémon</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio (UD$)</th>
+                    </tr>
+                </thead>
+                <tbody id="items"></tbody>
+                <tfoot>
+                    <tr id="footer">
+                        <th scope="row" colspan="4" id="borrar_carrito">Carrito vacío</th>
+                    </tr>
+                </tfoot>
+                </table>
+        </div>
+        
+<!-- Body -->
+</div>
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_814922-MLA45271076174_032021-F.webp">
+                <img src="https://latiendapokemon.com/wp-content/uploads/2016/10/calcetines_pokemon.jpg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_622044-MLA43690643720_102020-O.jpg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_648935-MLA43427379060_092020-O.webp">
+            </div>
+
+            <div class="w3-half">
+                <img src="https://latiendapokemon.com/wp-content/uploads/2016/10/peluches_pokemon.jpg">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRxJPAlytKUQXHNYqr2hnpPLNxFwPI9sAV2nLhQEE2CeI7hsi1S7t5AG-uUZQ-EANXwVwEdwYvclCaV6Zd9zmZnJpIY6IQwBzK0XC_f6HUBTv9QDWOW3Xd2&usqp=CAE">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_992270-MLA45029113683_022021-O.webp">
+                <img src="https://www.nintenderos.com/wp-content/uploads/2019/10/Pokemon-3.jpg">
+                <img src="https://img.bestdealplus.com/ae04/kf/Hd2523ce5661f4283b04d2e5d6f453126M.jpg">
+            </div>
+        </div>
+            
+        <!-- End Page Content -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p>Powered by <a href="#" target="_blank" class="w3-hover-text-green" id="final">Juan Ignacio Padin</a></p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
